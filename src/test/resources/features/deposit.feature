@@ -7,5 +7,5 @@ Background:
     When I login to ATM with id 1 and pin 111
 
 Scenario: Deposit into balance
-    When I deposit 50 from ATM
+    When I deposit 50 to Account
     Then my account balance is 250
